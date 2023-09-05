@@ -1,0 +1,68 @@
+{
+    "products": [
+        {
+            "name": "Strawberry",
+            "category": "Fruits",
+            "imgPath": "https://images.unsplash.com/photo-1564518087238-8d82baa9d7cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+            "price": "100",
+            "discount": true,
+            "discountSize": "30"
+        },
+        {
+            "name": "Green Bean",
+            "category": "Vegetables",
+            "imgPath": "https://images.unsplash.com/photo-1571679921290-3988b97ec142?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1336&q=80",
+            "price": "250",
+            "discount": false,
+            "discountSize": "20"
+        },
+        {
+            "name": "Bell Pepper",
+            "category": "Vegetables",
+            "imgPath": "https://images.unsplash.com/photo-1640958904674-715dfa6a9693?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+            "price": "200",
+            "discount": false,
+            "discountSize": "45"
+        },
+        {
+            "name": "Purple Cabbage",
+            "category": "Vegetables",
+            "imgPath": "https://images.unsplash.com/photo-1692958208988-227f4d09b8b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80",
+            "price": "90",
+            "discount": false,
+            "discountSize": "67"
+        },
+        {
+            "name": "Tomato",
+            "category": "Fruits",
+            "imgPath": "https://images.unsplash.com/photo-1553395572-0ef353a212bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1364&q=80",
+            "price": "260",
+            "discount": false,
+            "discountSize": "12"
+        },
+        {
+            "name": "Broccoli",
+            "category": "Vegetables",
+            "imgPath": "https://images.unsplash.com/photo-1564874998499-1f3c14e9e8b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+            "price": "123",
+            "discount": true,
+            "discountSize": "16"
+        },
+        {
+            "name": "Carrots",
+            "category": "Vegetables",
+            "imgPath": "https://images.unsplash.com/photo-1639427444459-85a1b6ac2d68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1376&q=80",
+            "price": "48",
+            "discount": false,
+            "discountSize": "13"
+        },
+        {
+            "name": "Fruit Juice",
+            "category": "Juices",
+            "imgPath": "https://images.unsplash.com/photo-1521488674203-62bf581664be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1376&q=80",
+            "price": "64",
+            "discount": false,
+            "discountSize": "34"
+        }
+    ]
+}

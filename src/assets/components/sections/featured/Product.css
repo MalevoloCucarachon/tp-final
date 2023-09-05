@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Diphylleia&family=Encode+Sans:wght@200;400;600&family=Montserrat:wght@500&family=Nunito:wght@800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.hide {
+    display: none;
+}
+
+.product {
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgray;
+
+
+}
+
+.lbl-disc-size {
+    background-color: rgb(130, 174, 70);
+    color: rgb(237, 236, 234);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1px 10px;
+}
+
+.lbl-name {
+    margin: 30px;
+}
+
+.labels {
+    font-family: 'Encode Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+}
+
+.labels label {
+    margin-left: 15px;
+}
+
+.lbl-old-price {
+    text-decoration-line: line-through;
+    font-weight: 500;
+    color: grey;
+}
+
+.lbl-price {
+    color: rgb(130, 174, 70);
+
+}

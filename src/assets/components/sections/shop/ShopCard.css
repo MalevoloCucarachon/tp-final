@@ -1,0 +1,24 @@
+@import url("https://images.unsplash.com/photo-1498579809087-ef1e558fd1da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80");
+
+
+.shop-card {
+    width: 400px;
+    height: 210px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+    margin: 30px;
+    display: flex;
+    align-items: flex-end;
+    transition: 1s;
+}
+
+.shop-card label{
+    font-family: 'Encode Sans', sans-serif;
+    background-color: rgb(130, 174, 70);
+    color: rgb(237, 236, 234);
+    padding: 2px 10px;
+}
+.shop-card:hover {
+    transform: scale(1.05);
+}
