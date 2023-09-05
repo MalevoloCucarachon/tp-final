@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Diphylleia&family=Encode+Sans:wght@200;400;600&family=Montserrat:wght@500&family=Nunito:wght@800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.sct-title {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    padding: 15% 0%;
+    color: rgb(237, 236, 234);
+    height: 600px;
+    background-image: url('https://images.unsplash.com/photo-1596776572010-93e181f9fc07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.sct-title h1{
+    font-size: 100px;
+    font-weight: 400;
+    margin: 50px 0px 0px 0px;
+}
+.sct-title h4 {
+
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+.sct-title button{
+    color: rgb(237, 236, 234);
+    margin: 1%;
+    padding: 5px 10px;
+    font-family: 'Encode Sans', sans-serif;
+    border-style: none;
+    background-color: rgb(130, 174, 70);
+    border-radius: 20px;
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Encode+Sans:wght@600&family=Montserrat:wght@500&family=Nunito:wght@800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.head-sct-banner {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    background-color: rgb(130, 174, 70);
+}
+
+.contact {
+    color: rgb(237, 236, 234);
+    text-align: center;
+    margin: 8%;
+}
+
+.head-menu {
+    padding: 10px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.head-ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.head-li {
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.head-li:hover {
+    transform: scale(1.15);
+}
+
+.head-li a {
+    text-decoration: none;
+    color: black;
+}
+
+.head-li select {
+    width: 20px;
+    border-style: none;
+}
+
+.btn-cart {
+    border-style: none;
+}
+
+.tittle {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(130, 174, 70);
+}
