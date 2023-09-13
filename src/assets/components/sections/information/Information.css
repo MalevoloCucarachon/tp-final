@@ -1,9 +1,31 @@
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    .sct-info-cards {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+  }
+  
+  /* Estilos para tabletas */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .sct-info-cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+  }
+  
+  /* Estilos para pantallas más grandes (escritorio) */
+  @media (min-width: 1024px) {
+    .sct-info-cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+  }
 
 
-
-
-.sct-info-cards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
