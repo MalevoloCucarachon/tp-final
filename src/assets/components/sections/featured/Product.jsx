@@ -9,22 +9,17 @@ const Product = ({ imgPath = '', name = '', price = '', discount, discSize }) =>
     }
     const img = {
         backgroundImage: `url("${imgPath}")`,
-        height: '200px', 
-        maxWidth: '100%',
-        backgroundSize: '110%',
-        backgroundRepeat: 'no-repeat',
-        backgroundPositionX: '60%',
-        backgroundPositionY: '90%',
+        
     }
     return (
         <>
             <section className='product' >
-                <div style={img}>
+                <div className='img' style={img}>
                     <label className={'lbl-disc-size' + (discount? ' show' : ' hide')}>{discSize +'%'}</label>
                 </div>
                 <div className='labels'>
                     <p className='lbl-name'>{name}</p>
-                    <label className={'lbl-old-price' + (discount ? ' show' : ' hide')}>${oldPrice}</label>
+                    <label style={discount ? {"margin-right" : "0.7em"} : {}} className={'lbl-old-price' + (discount ? ' show' : ' hide')}>{discount ? "$" : ""}{oldPrice}</label>
                     <label className='lbl-price'>${price}</label>
                 </div>
             </section>
