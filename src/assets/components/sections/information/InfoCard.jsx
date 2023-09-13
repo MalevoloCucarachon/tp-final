@@ -1,7 +1,8 @@
 import React from 'react';
 import './InfoCard.css'
-const InfoCard = ({className='', title = '', desc = '', backgroundColor =''}) => {
 
+
+const InfoCard = ({className='', title = '', desc = '', backgroundColor =''}) => {
     const cardStyle = {
         backgroundColor: backgroundColor
     };

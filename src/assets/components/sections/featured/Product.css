@@ -14,8 +14,8 @@
 }
 
 .lbl-disc-size {
-    background-color: rgb(130, 174, 70);
-    color: rgb(237, 236, 234);
+    background-color: var(--green-color);
+    color: var(--white-color);
     font-size: 18px;
     font-weight: 700;
     padding: 1px 10px;
@@ -26,7 +26,7 @@
 }
 
 .labels {
-    font-family: 'Encode Sans', sans-serif;
+    font-family: var(--encode);
     text-transform: uppercase;
     text-align: center;
     margin: 10px;
@@ -46,6 +46,6 @@
 }
 
 .lbl-price {
-    color: rgb(130, 174, 70);
+    color: var(--green-color);
 
 }

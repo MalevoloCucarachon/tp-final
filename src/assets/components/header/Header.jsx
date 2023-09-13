@@ -1,27 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Header = () => {
+
+
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    }
     return (
-        <>
+        <header>
             <section className='head-sct-banner'>
                 <p className="contact"><i class="bi bi-telephone-fill"></i> + 1234 4564 789</p>
                 <p className="contact"><i class="bi bi-send-fill"></i> YOUREMAIL@EMAIL.COM</p>
                 <p className="contact">3-5 BUSINESS DAYS DELIVERY & FREE RETURNS</p>
             </section>
             <section className='head-menu'>
-                <h1 className='tittle'>VEGEFOODS</h1>
-                <nav className='head-nav'>
+                <div className='logo'>VEGEFOODS</div>
+                <button onClick={toggleMenu} className="toggle-button">
+                    <i class="bi bi-list"></i>
+                </button>
+                <nav className={`menu${menuOpen ? ' open' : ''}`}>
                     <ul className='head-ul'>
                         <li className="head-li"><a href="">HOME</a></li>
-                        <li className="head-li"><a href="">SHOP</a>
-                            <select name="shop" id="shop">
-                                <option value="fruits">Fruits</option>
-                                <option value="vegetables">Vegetables</option>
-                                <option value="juices">Juices</option>
-                                <option value="dried">Dried</option>
-                            </select></li>
+                        <li className="head-li"><a href="">SHOP</a></li>
                         <li className="head-li"><a href="">ABOUT</a></li>
                         <li className="head-li"><a href="">BLOG</a></li>
                         <li className="head-li"><a href="">CONTACT</a></li>
@@ -29,8 +33,9 @@ const Header = () => {
                     </ul>
                 </nav>
             </section>
-        </>
+        </header>
     )
 }
+
 
 export default Header

@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import './BestPrice.css'
-import productsData from '../../../resources/products.json'
+
+
 
 const BestPrice = () => {
     const [days, setTimerDays] = useState('00');
@@ -50,8 +51,9 @@ const BestPrice = () => {
     }
     const bgndImg = {
         backgroundImage: `url('${product.imgPath}')`,
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat'
+        backgroundSize: '115%',
+        backgroundRepeat: 'no-repeat',
+        backgroundPositionX : '60%'
     }
 
     var oldPrice = 0;

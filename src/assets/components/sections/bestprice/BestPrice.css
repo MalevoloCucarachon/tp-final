@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Diphylleia&family=Encode+Sans:wght@200;400;600&family=Montserrat:wght@500&family=Nunito:wght@800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .sct-best-price{
-    padding: 80px 100px 30px 650px;
+    padding: 80px 120px 30px 650px;
     height: 600px;
 }
 
 .bp-calendar{
     display: flex;
     list-style: none;
-
+    
 }
 .bp-subtitle{
     font-family: 'Diphylleia', serif;
