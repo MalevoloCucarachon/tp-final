@@ -13,6 +13,12 @@ const Footer = () => {
                         Far far away, behind the word mountains, far from the countries
                         Vokalia and Consonantia.
                     </p>
+
+                    <div className='div-social-media'>
+                        <i className="bi bi-twitter"></i>
+                        <i className="bi bi-facebook"></i>
+                        <i className="bi bi-instagram"></i>
+                    </div>
                 </div>
 
                 <div className='div-menu'>
@@ -43,23 +49,15 @@ const Footer = () => {
 
                 <div className='div-questions'>
                     <h4>Have a Questions?</h4>
-                    <img src="" alt="GPS icon" />
-                    <p>203 Fake st. Mountain View, San Francisco, California, USA</p>
-                    <img src="" alt="Telephone icon" />
-                    <p>+12 345 678 900</p>
-                    <img src="" alt="E-Mail icon" />
-                    <p>info@domain.com</p>
+                    <p><i class="bi bi-geo-alt-fill"></i> 203 Fake st. Mountain View, San Francisco, California, USA</p>
+                    <p><i class="bi bi-telephone-fill"></i> +12 345 678 900</p>
+                    <p><i class="bi bi-envelope-fill"></i> info@domain.com</p>
 
                 </div>
 
-                <div className='div-social-media'>
-                    <img src="" alt="twitter" />
-                    <img src="" alt="facebook" />
-                    <img src="" alt="instagram" />
-                </div>
             </section>
 
-            <h5>Copyright ©2023 All right reserverd | this template is made with love by Matias Carini | @Malevolo.Cucarachon_ </h5>
+            <h5 className='sign'>Copyright ©2023 All right reserverd | this template is made with love by Matias Carini | @Malevolo.Cucarachon_ </h5>
         </>
     )
 }
