@@ -19,7 +19,7 @@ const Product = ({ imgPath = '', name = '', price = '', discount, discSize }) =>
                 </div>
                 <div className='labels'>
                     <p className='lbl-name'>{name}</p>
-                    <label style={discount ? {"margin-right" : "0.7em"} : {}} className={'lbl-old-price' + (discount ? ' show' : ' hide')}>{discount ? "$" : ""}{oldPrice}</label>
+                    <label style={discount ? {"marginRight" : "0.7em"} : {}} className={'lbl-old-price' + (discount ? ' show' : ' hide')}>{discount ? "$" : ""}{oldPrice}</label>
                     <label className='lbl-price'>${price}</label>
                 </div>
             </section>

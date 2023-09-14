@@ -13,14 +13,14 @@ const Header = () => {
     return (
         <header>
             <section className='head-sct-banner'>
-                <p className="contact"><i class="bi bi-telephone-fill"></i> + 1234 4564 789</p>
-                <p className="contact"><i class="bi bi-send-fill"></i> YOUREMAIL@EMAIL.COM</p>
+                <p className="contact"><i className="bi bi-telephone-fill"></i> + 1234 4564 789</p>
+                <p className="contact"><i className="bi bi-send-fill"></i> YOUREMAIL@EMAIL.COM</p>
                 <p className="contact">3-5 BUSINESS DAYS DELIVERY & FREE RETURNS</p>
             </section>
             <section className='head-menu'>
                 <div className='logo'>VEGEFOODS</div>
                 <button onClick={toggleMenu} className="toggle-button">
-                    <i class="bi bi-list"></i>
+                    <i className="bi bi-list"></i>
                 </button>
                 <nav className={`menu${menuOpen ? ' open' : ''}`}>
                     <ul className='head-ul'>
@@ -29,7 +29,7 @@ const Header = () => {
                         <li className="head-li"><a href="">ABOUT</a></li>
                         <li className="head-li"><a href="">BLOG</a></li>
                         <li className="head-li"><a href="">CONTACT</a></li>
-                        <li className='head-li'><button className="btn-cart"><i class="bi bi-cart"></i></button></li>
+                        <li className='head-li'><button className="btn-cart"><i className="bi bi-cart"></i></button></li>
                     </ul>
                 </nav>
             </section>

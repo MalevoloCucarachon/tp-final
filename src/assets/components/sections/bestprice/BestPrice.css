@@ -1,62 +1,267 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Diphylleia&family=Encode+Sans:wght@200;400;600&family=Montserrat:wght@500&family=Nunito:wght@800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    .sct-best-price {
+        padding: 10% 5%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
-.sct-best-price{
-    padding: 80px 120px 30px 650px;
-    height: 600px;
+    .mobile-array {
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 1.5em;
+        border-radius: 2em;
+    }
+
+    .bp-calendar {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+
+    }
+
+    .bp-subtitle {
+        text-align: center;
+        font-family: var(--diphylleia);
+        font-size: 0.9em;
+        color: var(--green-color);
+        font-weight: 800;
+    }
+
+    .bp-title {
+        text-align: center;
+        font-family: var(--encode);
+        font-weight: 700;
+    }
+
+    .bp-p {
+        text-align: center;
+        font-family: var(--encode);
+        color: black;
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+
+    .bp-item {
+
+        border-radius: 2em;
+        text-align: center;
+        font-family: var(--diphylleia);
+        font-size: 3em;
+        color: var(--green-color);
+        font-weight: 400;
+    }
+
+    .prices {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0% 33%;
+    }
+
+    .bp-old-price {
+        text-decoration-line: line-through;
+        font-size: 1.3em;
+        font-weight: 400;
+        color: rgb(134, 2, 2);
+    }
+
+    .bp-price {
+        font-size: 1.6em;
+        font-weight: 700;
+        color: var(--green-color);
+
+    }
+
+    .bp-li {
+        width: 5em;
+
+
+    }
+
+    .bp-number {
+        font-family: var(--diphylleia);
+        color: var(--green-color);
+        text-align: center;
+        font-size: 2em;
+        font-weight: 600;
+    }
+
+    .bp-text {
+        font-size: 0.78em;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: var(--encode);
+        color: black;
+    }
 }
 
-.bp-calendar{
-    display: flex;
-    list-style: none;
-    
-}
-.bp-subtitle{
-    font-family: 'Diphylleia', serif;
-    font-size: 20px;
-    color: rgb(130, 174, 70);
-    font-weight: 800;
-}
-.bp-title{
-    margin: 25px 0px 40px 0px;
-    font-family: 'Encode Sans',sans-serif;
-    font-weight: 700;
-}
-.bp-p{
-    font-family: 'Encode Sans',sans-serif;
-    color: rgb(147, 148, 150);
-    font-size: 16px;
-    font-weight: 600;
-}
-.bp-item{
-    font-family: 'Diphylleia', serif;
-    font-size: 48px;
-    color: rgb(130, 174, 70);
-    font-weight: 400;
-}
-.bp-old-price {
-    text-decoration-line: line-through;
-    font-size: 25px;
-    font-weight: 400;
-    color: grey;
-    margin: 5px 20px;
+
+/* Estilos para tabletas */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .sct-best-price {
+        padding: 5% 0;
+        padding-left: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .bp-calendar {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 0.5em;
+        border-radius: 2em;
+        margin-right: 3em;
+
+    }
+
+    .bp-subtitle {
+        font-family: var(--diphylleia);
+        font-size: 1.5em;
+        color: var(--green-color);
+        font-weight: 800;
+    }
+
+    .bp-title {
+        font-family: var(--encode);
+        font-weight: 700;
+    }
+
+    .bp-p {
+        font-family: var(--encode);
+        color: var(--gray-color);
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .bp-item {
+        padding: 0px 20%;
+
+        font-family: var(--diphylleia);
+        font-size: 4em;
+        color: var(--green-color);
+        font-weight: 400;
+    }
+
+    .bp-old-price {
+        padding-left: 15%;
+        text-decoration-line: line-through;
+        font-size: 1.5em;
+        font-weight: 400;
+        color: grey;
+        margin: 5px 1.5em;
+    }
+
+    .bp-price {
+        font-size: 1.8em;
+        font-weight: 700;
+        color: var(--green-color);
+
+    }
+
+    .bp-li {
+        width: 5em;
+
+
+    }
+
+    .bp-number {
+        font-family: var(--diphylleia);
+        color:var(--green-color);
+        text-align: center;
+        font-size: 2.7em;
+        font-weight: 600;
+    }
+
+    .bp-text {
+        font-size: 0.8em;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: var(--encode);
+        color: rgba(237, 236, 234, 1);
+    }
 }
 
-.bp-price {
-    font-size: 25px;
-    font-weight: 700;
-    color: rgb(130, 174, 70);
+/* Estilos para pantallas más grandes (escritorio) */
+@media (min-width: 1024px) {
+    .sct-best-price {
+        padding: 5% 0;
+        padding-left: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-X: 90%;
+    }
 
-}
-.bp-li{
-    width: 120px;
-}
-.bp-number{
-    font-family: 'Diphylleia',serif;
-    color: rgb(130, 174, 70);
-    text-align: center;
-    font-size: 48px;
-    font-weight: 600;
-}
-.bp-text{
-    text-align: center;
+    .bp-calendar {
+        display: flex;
+        list-style: none;
+        padding: 0px 20%;
+
+    }
+
+    .bp-subtitle {
+        font-family: var(--diphylleia);
+        font-size: 1.5em;
+        color: var(--green-color);
+        font-weight: 800;
+    }
+
+    .bp-title {
+        font-family: var(--encode);
+        font-weight: 700;
+    }
+
+    .bp-p {
+        font-family: var(--encode);
+        color: var(--gray-color);
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .bp-item {
+        padding: 0px 20%;
+
+        font-family: var(--diphylleia);
+        font-size: 4em;
+        color: var(--green-color);
+        font-weight: 400;
+    }
+
+    .bp-old-price {
+        padding-left: 15%;
+        text-decoration-line: line-through;
+        font-size: 1.5em;
+        font-weight: 400;
+        color: grey;
+        margin: 5px 1.5em;
+    }
+
+    .bp-price {
+        font-size: 1.8em;
+        font-weight: 700;
+        color: var(--green-color);
+
+    }
+
+    .bp-li {
+        width: 5em;
+    }
+
+    .bp-number {
+        font-family: var(--diphylleia);
+        color: var(--green-color);
+        text-align: center;
+        font-size: 3em;
+        font-weight: 600;
+    }
+
+    .bp-text {
+        font-size: 0.8em;
+        text-transform: uppercase;
+        font-family: var(--encode);
+    }
 }

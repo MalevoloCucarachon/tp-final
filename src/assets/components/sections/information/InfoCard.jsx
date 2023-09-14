@@ -10,7 +10,7 @@ const InfoCard = ({className='', title = '', desc = '', backgroundColor =''}) =>
         <>
             <section className='card'>
                 <div className='image' style={cardStyle}>
-                    <i class={className}></i>
+                    <i className={className}></i>
                 </div>
                     <p className='p1'>{title}</p>
                     <p className='p2'>{desc}</p>

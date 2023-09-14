@@ -2,13 +2,13 @@
 
 
 :root {
-    --green-color: rgb(130, 174, 70);
-    --white-color: rgb(237, 236, 234);
+    --green-color: rgba(130, 174, 70,1);
+    --white-color: rgba(237, 236, 234,1);
     --diphylleia: 'Diphylleia', serif;
     --amatic: 'Amatic SC', cursive;
     --encode: 'Encode Sans', sans-serif;
     --black-han-sans: 'Black Han Sans', sans-serif;
-
+    --gray-color: rgb(147, 148, 150);
 }
 *{
     margin: 0px;

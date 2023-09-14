@@ -40,7 +40,7 @@ const BestPrice = () => {
         }
     })
 
-    var product = 
+    var product =
     {
         name: "Spinach",
         category: "Vegetables",
@@ -51,9 +51,6 @@ const BestPrice = () => {
     }
     const bgndImg = {
         backgroundImage: `url('${product.imgPath}')`,
-        backgroundSize: '115%',
-        backgroundRepeat: 'no-repeat',
-        backgroundPositionX : '60%'
     }
 
     var oldPrice = 0;
@@ -65,36 +62,42 @@ const BestPrice = () => {
     return (
         <>
             <section className='sct-best-price' style={bgndImg}>
-                <h4 className='bp-subtitle'>Best Price For You</h4>
-                <h1 className='bp-title'>Deal Of the day</h1>
+                <div className='mobile-array'>
 
-                <p className='bp-p'>
-                    Far far away, behind the world mountains, far from the countries Vokalia and Consonantia.
-                </p>
+                    <h4 className='bp-subtitle'>Best Price For You</h4>
+                    <h1 className='bp-title'>Deal Of the day</h1>
 
-                <h2 className='bp-item'>Spinach</h2>
-                <label className='bp-old-price'>${oldPrice}</label>
-                <label className='bp-price'>${price}</label>
+                    <p className='bp-p'>
+                        Far far away, behind the world mountains, far from the countries Vokalia and Consonantia.
+                    </p>
+
+                    <h2 className='bp-item'>Spinach</h2>
+                    <div className='prices'>
+                        <label className='bp-old-price'>${oldPrice}</label>
+                        <label className='bp-price'>${price}</label>
+
+                    </div>
 
 
-                <ul className='bp-calendar'>
-                    <li className='bp-li'>
-                        <p className='bp-number'>{days}</p>
-                        <p className='bp-text'> días</p>
-                    </li>
-                    <li className='bp-li'>
-                        <p className='bp-number'>{hours}</p>
-                        <p className='bp-text'> horas</p>
-                    </li>
-                    <li className='bp-li'>
-                        <p className='bp-number'>{min}</p>
-                        <p className='bp-text'> minutos</p>
-                    </li>
-                    <li className='bp-li'>
-                        <p className='bp-number'>{sec}</p>
-                        <p className='bp-text'> segundos</p>
-                    </li>
-                </ul>
+                    <ul className='bp-calendar'>
+                        <li className='bp-li'>
+                            <p className='bp-number'>{days}</p>
+                            <p className='bp-text'> days</p>
+                        </li>
+                        <li className='bp-li'>
+                            <p className='bp-number'>{hours}</p>
+                            <p className='bp-text'> hours</p>
+                        </li>
+                        <li className='bp-li'>
+                            <p className='bp-number'>{min}</p>
+                            <p className='bp-text'> min</p>
+                        </li>
+                        <li className='bp-li'>
+                            <p className='bp-number'>{sec}</p>
+                            <p className='bp-text'> sec</p>
+                        </li>
+                    </ul>
+                </div>
 
             </section>
         </>

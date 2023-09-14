@@ -1,0 +1,77 @@
+{
+    "people": [
+      {
+        "name": "Juan",
+        "surname": "Pérez",
+        "profession": "Agricultor",
+        "comment": "Ofrezco una variedad de productos frescos de la granja."
+      },
+      {
+        "name": "María",
+        "surname": "González",
+        "profession": "Agrónoma",
+        "comment": "Mi experiencia en agricultura sostenible garantiza productos de alta calidad."
+      },
+      {
+        "name": "Luis",
+        "surname": "Martínez",
+        "profession": "Cosechador",
+        "comment": "Cuido cada cultivo con amor para obtener los mejores resultados."
+      },
+      {
+        "name": "Ana",
+        "surname": "Sánchez",
+        "profession": "Nutricionista",
+        "comment": "Recomiendo los productos frescos de la granja para una dieta saludable."
+      },
+      {
+        "name": "Carlos",
+        "surname": "López",
+        "profession": "Granjero",
+        "comment": "Nuestros productos orgánicos son la elección perfecta para una alimentación consciente."
+      },
+      {
+        "name": "Laura",
+        "surname": "Rodríguez",
+        "profession": "Agricultora",
+        "comment": "Cultivamos con pasión y cuidado para proporcionar alimentos de primera calidad."
+      },
+      {
+        "name": "Pedro",
+        "surname": "Díaz",
+        "profession": "Botánico",
+        "comment": "Exploramos nuevas variedades de cultivos para diversificar nuestra oferta."
+      },
+      {
+        "name": "Sofía",
+        "surname": "Fernández",
+        "profession": "Bióloga",
+        "comment": "Nuestra granja es un ecosistema saludable que beneficia a la biodiversidad local."
+      },
+      {
+        "name": "Diego",
+        "surname": "Hernández",
+        "profession": "Ingeniero Agrícola",
+        "comment": "Aplicamos la última tecnología agrícola para obtener rendimientos óptimos."
+      },
+      {
+        "name": "Carolina",
+        "surname": "Vargas",
+        "profession": "Chef Orgánica",
+        "comment": "Creo deliciosas recetas con ingredientes frescos de la granja para tu mesa."
+      },
+      {
+        "name": "Manuel",
+        "surname": "Gómez",
+        "profession": "Agricultor",
+        "comment": "Nuestra dedicación se refleja en la calidad de nuestros productos."
+      },
+      {
+        "name": "Isabel",
+        "surname": "Torres",
+        "profession": "Investigadora Agrícola",
+        "comment": "Investigamos constantemente para mejorar nuestras prácticas agrícolas."
+      }
+    ]
+  }
+  
