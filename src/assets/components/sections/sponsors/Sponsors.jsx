@@ -1,17 +1,17 @@
 import React from 'react';
-
+import './Sponsors.css'
 const Sponsors = () => {
-    return(
-        <>
-          <section className='sct-sponsors'>
-                <img src="" alt="microsoft" />
-                <img src="" alt="android" />
-                <img src="" alt="java" />
-                <img src="" alt="google" />
-                <img src="" alt="adobe" />
-          </section>
-        </>  
-    )
+  return (
+    <>
+      <section className='sct-sponsors'>
+        <i className="bi bi-microsoft"></i>
+        <i className="bi bi-android2"></i>
+        <i className="bi bi-filetype-java"></i>
+        <i className="bi bi-google"></i>
+        <i className="bi bi-file-earmark-pdf"></i>
+      </section>
+    </>
+  )
 }
 
 export default Sponsors

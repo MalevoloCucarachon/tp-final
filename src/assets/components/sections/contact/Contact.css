@@ -1,0 +1,135 @@
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: wheat;
+        width: 100%;
+        margin: 0;
+        padding: 1em 2em;
+
+
+    }
+
+    .ctc-text {
+        color: black;
+        font-family: var(--encode);
+        text-align: left;
+    }
+
+    .ctc-text h1 {
+        font-size: 1.2em;
+    }
+
+    .ctc-text h5 {
+        font-size: 0.8em;
+        color: var(--gray-color);
+        font-weight: 700;
+    }
+    .inputs{
+        font-size: 0.8em;
+    }
+    .inputs input{
+        height: 100%;
+        padding: 0.2em;
+    }
+    .inputs button {
+        padding: 0.3em 0.8em;
+        background-color: var(--green-color);
+        color: var(--white-color);
+        height: 100%;
+        border-style: none;
+    }
+}
+
+/* Estilos para tabletas */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: wheat;
+        width: 100%;
+        margin: 0;
+        padding: 2em 4em;
+
+
+    }
+
+    .ctc-text {
+        color: black;
+        font-family: var(--encode);
+        text-align: left;
+    }
+
+    .ctc-text h1 {
+        font-size: 1.3em;
+    }
+
+    .ctc-text h5 {
+        font-size: 0.8em;
+        color: var(--gray-color);
+        font-weight: 700;
+    }
+    .inputs{
+        font-size: 0.8em;
+    }
+    .inputs input{
+        height: 100%;
+        padding: 0.2em;
+    }
+    .inputs button {
+        padding: 0.3em 0.8em;
+        background-color: var(--green-color);
+        color: var(--white-color);
+        height: 100%;
+        border-style: none;
+    }
+}
+
+/* Estilos para pantallas más grandes (escritorio) */
+@media (min-width: 1024px) {
+    .contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: wheat;
+        width: 100%;
+        margin: 0;
+        padding: 2em 4em;
+
+
+    }
+
+    .ctc-text {
+        color: black;
+        font-family: var(--encode);
+        text-align: left;
+    }
+
+    .ctc-text h1 {
+        font-size: 1.5em;
+    }
+
+    .ctc-text h5 {
+        font-size: 1em;
+        color: var(--gray-color);
+        font-weight: 700;
+    }
+    .inputs input{
+        height: 100%;
+        padding: 0.2em;
+    }
+    .inputs{
+        font-size: 1em;
+    }
+    .inputs button {
+        padding: 0.3em 1em;
+        background-color: var(--green-color);
+        color: var(--white-color);
+        height: 100%;
+        border-style: none;
+    }
+}

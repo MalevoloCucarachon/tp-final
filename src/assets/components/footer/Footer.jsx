@@ -5,8 +5,7 @@ const Footer = () => {
     return (
         //foot-sct-display === Sección desplegable del footer 
         <>
-            <button className='btn-display'></button>
-            <section className='foot-sct-display show hide'>
+            <section className='foot-sct-display'>
 
                 <div className='div-about-us-desc'>
                     <h4>Vegefoods</h4>

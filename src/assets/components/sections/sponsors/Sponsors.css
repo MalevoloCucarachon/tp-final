@@ -1,0 +1,41 @@
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    .sct-sponsors{
+        max-width: 100%;
+        display: flex;
+        flex-wrap: norwrap;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 3em;
+        padding: 0.5em;
+    }
+}
+
+/* Estilos para tabletas */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .sct-sponsors{
+        max-width: 100%;
+        display: flex;
+        flex-wrap: norwrap;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 5em;
+        padding: 0em 1em;
+    }
+}
+
+/* Estilos para pantallas más grandes (escritorio) */
+@media (min-width: 1024px) {
+    .sct-sponsors{
+        max-width: 100%;
+        display: flex;
+        flex-wrap: norwrap;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 5em;
+        padding: 0em 1em;
+    }
+}
+
+

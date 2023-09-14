@@ -1,12 +1,92 @@
 
 /* Estilos para dispositivos móviles */
 @media (max-width: 767px) {
-    /* Estilos específicos para pantallas pequeñas */
+    .comment-card{
+        border-style: solid;
+        border-color: var(--white-color) ;
+        border-width: 1px;
+        padding: 0.3em;
+        margin: 0.3em ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .img{
+        max-width: 100%;
+        width: 5em;
+        height: 5em;
+        border-radius: 20em;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 40%;
+    }
+    
+    .comment-box{
+        max-width: 100%;
+        margin: 0.5em;
+        padding: 0.5em;
+        text-align: center;
+    }
+    .comment{
+        font-family: var(--encode);
+        font-size: 0.7em;
+        font-weight: 600;
+    }
+    .name{
+        font-family: var(--diphylleia);
+        font-size: 1em;
+        color: var(--green-color);
+        font-weight: 900;
+    }
+    .profession{
+        font-family: var(--encode);
+        font-size: .8em;
+    }
   }
   
   /* Estilos para tabletas */
   @media (min-width: 768px) and (max-width: 1023px) {
-    /* Estilos específicos para tabletas */
+    .comment-card{
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .img{
+        max-width: 100%;
+        width: 6em;
+        height: 6em;
+        border-radius: 20em;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 40%;
+    }
+    
+    .comment-box{
+        max-width: 100%;
+        margin: 0.5em;
+        padding: 0.5em;
+        text-align: center;
+    }
+    .comment{
+        font-family: var(--encode);
+        font-size: 0.8em;
+        font-weight: 600;
+    }
+    .name{
+        font-family: var(--diphylleia);
+        font-size: 1.4em;
+        color: var(--green-color);
+        font-weight: 900;
+    }
+    .profession{
+        font-family: var(--encode);
+        font-size: 1em;
+    }
   }
   
   /* Estilos para pantallas más grandes (escritorio) */
