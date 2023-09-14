@@ -7,7 +7,7 @@ const CommentCard = ({ comment = '', name = '', surname = '', profession = '' })
     return (
         <>
             <div className='comment-card'>
-                <div className='img' style={img}>
+                <div className='cmmnt-img' style={img}>
 
                 </div>
                 <div className='comment-box'>
